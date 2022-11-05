@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.1",
+    "apollo-server-express": "^3.11.1",
     "core-util-is": "^1.0.3",
     "npm": "^8.19.3"
   }
