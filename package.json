@@ -2,9 +2,7 @@
   "name": "googlebooks-app",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "18.x"
-  },
+  
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -19,6 +17,8 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.1"
+    "@apollo/client": "^3.7.1",
+    "core-util-is": "^1.0.3",
+    "npm": "^8.19.3"
   }
 }
